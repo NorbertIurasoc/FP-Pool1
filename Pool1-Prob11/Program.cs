@@ -10,14 +10,14 @@ namespace Pool1_Prob11
     {
         static void Main(string[] args)
         {
-            int n, cif, invers = 0; ;
+            int n, cifra, invers = 0; ;
             Console.WriteLine("Introduceti numarul: ");
             n = int.Parse(Console.ReadLine());
             
             while (n > 0)
             {
-                cif = n % 10;
-                invers = invers * 10 + cif;
+                cifra = n % 10;
+                invers = invers * 10 + cifra;
                 n = n / 10;
             }
 
